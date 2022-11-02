@@ -1,0 +1,1 @@
+This string is written to data1.txtThis string is written to data1.txt
