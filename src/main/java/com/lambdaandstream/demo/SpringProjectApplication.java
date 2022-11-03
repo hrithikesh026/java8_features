@@ -33,24 +33,24 @@ public class SpringProjectApplication {
 		Map<String, Integer> numberMap = getMap();
 		
 
-		iterateUsingForEach(numberMap);
+//		iterateUsingForEach(numberMap);
 		
-		getAndGetOrDefault(numberMap);
+//		getAndGetOrDefault(numberMap);
 		
 		//put and put if absent
-		putAndPutIfAbsent(numberMap);
+//		putAndPutIfAbsent(numberMap);
 		
 		//replace
-		replaceAll(numberMap);
+//		replaceAll(numberMap);
 		
 		//compute
-		sop("compute = "+numberMap.compute("tuesday", (key,value)->(value*value)));
-		
-		sop("Filtered List = "+myList.stream().filter(num -> num>5).collect(Collectors.toList()));
-		
-		sop("Reduce(Sum of integers) = " + myList.stream().reduce(0, (sum,num)-> {
-			return num+sum;
-			}));
+//		sop("compute = "+numberMap.compute("tuesday", (key,value)->(value*value)));
+//		
+//		sop("Filtered List = "+myList.stream().filter(num -> num>5).collect(Collectors.toList()));
+//		
+//		sop("Reduce(Sum of integers) = " + myList.stream().reduce(0, (sum,num)-> {
+//			return num+sum;
+//			}));
 		
 	}
 
